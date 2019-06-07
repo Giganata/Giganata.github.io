@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zgodovina</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+			<img src="pinguV3.png" class="other_page_banner">
+	
+		<ul>
+			<li><a href="index.html">Domača stran</a></li>
+			<li><a class="active">Zgodovina</a></li>
+			<li><a href="uporabnost.html">Izobraževanje</a></li>
+			<li><a href="programiranje.html">Programiranje</a></li>
+			<li><a href="uporabnik.html">Prednosti/slabosti</a></li>
+			<li><a href="viri.html">Viri in literatura</a></li>
+		</ul>
+		
+		<div class="okvir">
+			
+			<p>Razdelek je namenjen predstavitvi Linuxovega začetka, njegovega stvarnika in pomembnih obdobij.</p>
+			
+			<!-- Namenjeno gumbom, ki se odpirajo z klikom nanje, delujejo z pomočjo skripte, ki je navedena spodaj. -->
+			
+			<div class="tab">
+			  <button class="tablinks" onclick="openCity(event, 'The Creator')">Linus Torvalds</button>
+			  <button class="tablinks" onclick="openCity(event, 'The Creation')">1991 - Rojstvo</button>
+			  <button class="tablinks" onclick="openCity(event, 'The Dilema')">Vzpon k popularnosti</button>
+			  <button class="tablinks" onclick="openCity(event, 'Masterpiece')">Res "zastonj"?</button>
+			</div>
+
+			<div id="The Creator" class="tabcontent">
+			
+			  <img src="linus.jpg" style="width: 150px; height: 200px; margin: 10px;" class="top_picture">
+			  
+			  <p>Linus Torvalds je bil rojen 28. decembra leta 1969 na Finskem. Poimenovan je bil po Linusu Paulingu, ameriškem nobelovem nagrajencu za področje kemije. Izobraževal se je na univerzi v Helsinkih od leta 1988 do leta 1996. Diplomiral je na področju računalništva in napisal diplomsko nalogo katere je bil končen izdelek operacijski sistem Linux.</p>
+
+			  <p>Znan je po tem, da je stvarnik in glavni razvijalec Linux kernela, ki je postal kernel za veliko Linuxovih različic in drugih operacijskih sistemov kot sta Android in Chrome OS. Do leta 2006 je Linus napisal le 2% kode kernela, ker je pri razvoju sodelovalo toliko drugih razvijalcev okoli sveta, ampak glede na to, koliko ljudi je pripomoglo k razvoju sta ta dva procetna ogromna. Ne glede na velikanske številke razvijalcev je še vedno Linux tisti, ki je obdržal avtoriteto o tem, kaj se dejansko vključi v standardni Linux kernel.</p>
+			  
+			  <p>Linus je poročen z Tove Torvalds in ima z njo 3 hčere. Od leta 1996 do leta 2003 je delal v podjetju Transmeta. Od leta 2004 živi in dela v Portlandu.</p>
+			</div>
+
+			<div id="The Creation" class="tabcontent">
+			  
+			  <img src="Linux_0_12.jpg" style="width: 300px; height: 300px; margin: 10px;" class="top_picture">
+			  
+			  <p>Linux je nastal kot diplomska naloga Linusa Torvaldsa ob koncu študija računalništva. V njegovem času sta bila edina operacijska sistema UNIX in DOS, ki sta bila nepraktična za uporabo. Linus je Linux začel pisati kot hobij, ampak se je razširil in kmalu postal zelo zanimiv za ostale razvijalce. Njegov kernel se je razvijal toliko časa, da je postal tudi prenosljiv. Drugo podjetje je nato vzelo Linuxov kernel, mu dodalo ostalo potrebno programsko opremo in ustvarilo Linux distribution.</p>
+				
+			  Linus je svojo inovacijo hotel imenovati "Freax", beseda sestavljena iz "free", "freak" in "x". V začetku razvoja so imeli celo nekateri delčki še vedno im "Freax" približno pol leta. Linus je v samem začetku tudi sam premišljeval o imenu Linux, ampak se mu je zdelo preveč egocentrično in se je temu imenu takrat odpovedal. Da bi ga začeli bolje razvijati, so datoteke Liuxa naložili na FTP server FUNET-a septembra 1991. Eden njegovih sodelavcev, ki je bil tudi eden prostovolnjih administratorjev serverja, se ni strinjal z imenom "Freax", zato je imenoval projekt Linux. Kasneje, se je tudi Linus pristal na ime Linux. Kot demonstracijo, kako se beseda Linux izgovori, je Linus izdal zvočni vodič z izvorno kodo kernela.</p>
+			 
+			  <p>Prvi prototipi Linuxa so bili izdani kasneje leta 1991. Verzija 1.0 je bila izdana 14. marca 1994. Torvalds se je prvič srečal z GNU projekt leta 1991, po tem, ko se je udeležil govora Richarda Stallmana na Universe of Technology. Nato je Torvalds uporabil Stallimanovo 2. verzijo GNU General Public License za svoj Linux kernel. Leta 1996 je obiskal Transmeta in sprejel delovno mesto v podjetju v Kaliforniji, kjer je delal od februarja 1997 do junija 2003. Potem se je preselil v podjetje Open Source Development Labs, katere je združil z podjetjem Free Stadards Group in ustvaril Linux Foundation, kjer še vedno dela. Tako se Linux še vedno razvija z pomočjo ostalih razvijalcev zaradi proste dostopnosti kode.</p>
+			</div>
+			
+			<div id="The Dilema" class="tabcontent">
+			  
+			  <p>Sprejetje Linuxa v produkcijskih okoljih, namesto da bi ga uporabljali samo ljubitelji, so se začeli sredi devetdesetih let prejšnjega stoletja v skupnosti superračunalnikov. Organizacije kot je NASA, so začele nadomeščati vse dražje stroje z cenovno ugodnimi računalniki z Linuxom. Komercialna uporaba se je začela, ko sta Dell in IBM, ki mu sledil Hewlett-Packard, začela ponujati podporo za Linux, da bi se izognila Microsoftovemu monopolu na trgu namiznega operacijskega sistema.</p>
+			  
+			  <p>Danes se sistemi Linuxa masovno uporabljajo po svetu, od vgrajenih sistemov do skoraj vseh superračunalnikov, in so zagotovili mesto v strežniških namestitvah, kot je priljubljena zbirka aplikacij LAMP. Uporaba distribucij Linuxa v domačih in podjetniških namizjih narašča in so postale priljubljene tudi na trgu netbookov, saj so številne naprave nameščene z prilagojenimi distribucijami Linuxa.</p>
+			  
+			  <p>Največji uspeh Linuxa na potrošniškem trgu je trg mobilnih naprav, saj je Android eden najbolj prevladujočih operacijskih sistemov na pametnih telefonih in zelo priljubljen. Igranje računalniških iger na Linuxu je prav tako v porastu, saj Valve podpira Linux in uvaja lastno distribucijo Linuxa, usmerjeno v igre na srečo. Linuxove distribucije so prav tako pridobile popularnost pri različnih lokalnih in nacionalnih vladah, kot je zvezna vlada Brazilije.</p>
+			</div>
+
+			<div id="Masterpiece" class="tabcontent">
+			  
+			  <p>Če pogledamo po računalnikih večjih firm imajo najverjetneje kot najbolj uporabljen OS Microsoft Windows, saj je ta najbolj popularen. Ustvarjalci in umetniki imajo raje iOS, ker prvotno pridejo že z opremo za oblikovanje, saj je bolj ustvarjalno usmerjen. Poleg teh dveh OS, ki dominirata trg že več deset let pa obstaja alternativni OS, ki uporabnejši, varnejši, spremenljiv in veste kaj? ZASTONJ – to seveda velja če ga znate programirati sami, ker osnovna distributivna verzija, ki vam jo ponuja podjetje, lahko nima vseh gonilnikov. To pomeni, da jih moramo sprogramirati sami ali pa da le te kupimo od nekoga, ki jih je že. To pa je zato, ker Linux ni operacijski sistem kot sam, ampak je le kernel ali »jedro« operacijskega sistema. Rečemo mu operacijski sistem, ker to postane če ga združimo z jedrnimi deli GNU in tako ustvarimo okolje, ki v grobem predstavlja operacijski sistem. V takih primerih lahko cene posamezne različice kar hitro eksponentno narastejo v ceni, saj progiranje same programske opreme ni mačji kašelj.</p>
+			  
+			  <p>Standardna verzija Linuxa je res zastonj, ampak lahko pride v reducirani obliki kot bi recimo pričakovali od Windows-a ali iOs-a.. Prav zato je odličen za manjša podjetja z manjšim denarnim skladom. Čeprav je zastonj to ne pomeni, da je manj kvaliteten kot katerikoli drug operacijski sistem – mogoče je trditi, da je celo bolj kvaliteten, saj ga lahko spreminjamo tako, da ustreza prav nam, kar pri drugih OS ni mogoče – do neke mere.</p>
+			  
+			  <p>Linux je skozi celotno svojo zgodovino ostal in še vedno ostaja open-source ali prosto dostopna programska oprema. Glede na trenutno stanje kaže, da bo tako tudi ostalo, saj prav/le tako konkurira Windwsu in iOS-u, ki do danes še vedno dominirata trg.</p>
+			</div>
+
+			<!-- Zgoraj omenjeno skripta, je funkcija, ki kot vhodni podatek dobi event in ime ter ustvari gumbe in poskrbi za njihovo aktivnost/neaktivnost, kopirano iz W3Schools. -->
+
+			<script>
+			function openCity(evt, cityName) {
+			  var i, tabcontent, tablinks;
+			  tabcontent = document.getElementsByClassName("tabcontent");
+			  for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tablinks");
+			  for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			  }
+			  document.getElementById(cityName).style.display = "block";
+			  evt.currentTarget.className += " active";
+			}
+			</script>
+			
+		</div>
+
+		<footer style="background-color: #566573;" class="footer">© Adrijan Golja</footer>
+	</body>
+</html>
